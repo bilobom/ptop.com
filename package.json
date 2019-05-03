@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "dist":"cd ../ptopClient && npm run build &&  cp -r ./build ../ptop.com/"
+    "dist":"cd ../ptopClient && npm run build &&  cp -r ./build ../ptop.com/ && cd ../ptop.com && git add . && git commit -m 'auto commit' && git push"
   },
   "dependencies": {
     "cookie-parser": "~1.4.3",
